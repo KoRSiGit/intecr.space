@@ -1,43 +1,181 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <title>Stabig - Responsive Landing page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Premium Bootstrap 5 Template" />
+  <meta name="keywords" content="bootstrap 5, premium, marketing, multipurpose" />
+  <meta content="Themesdesign" name="author" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" />
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <!-- tinyslider -->
+  <link rel="stylesheet" href="css/tiny-slider.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
+  <!-- css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.min.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="67">
 
-  <!-- Add your site or application content here -->
-  <p>"Innovative Technological Solutions" Consortium Website is on heavy reconstruction now.</p>
-  <p>Please check back in a while!</p>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<!-- start hero -->
+<section class="hero-1 bg-white position-relative d-flex align-items-center justify-content-center overflow-hidden" style="background-image: url(images/hero-1-bg.png);" id="home">
+  <div class="container">
+    <div class="row align-items-center text-center text-lg-start">
+      <div class="col-lg-6 mt-4 pt-2">
+        <h6 class="text-primary mb-3">Connect With People</h6>
+        <h1 class="ml11 mb-2">
+                        <span class="text-wrapper">
+                              <span class="line line1"></span>
+                        <span class="letters pb-0">Grow Business</span>
+                        </span>
+        </h1>
+        <h5 class="my-4">& Boost Your Company</h5>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+        <p class="text-muted mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit <br> maxime vitae labore aliquam odit est illo ducimus, dolores neque expedita.</p>
+        <a href="#" class="btn btn-primary mt-4">Get Started <i data-feather="arrow-right" class="icon-xs icon"></i> </a>
+      </div>
+      <div class="col-lg-6 mt-lg-4 pt-2 mt-5">
+        <img class="hero-img" src="images/hero-1-img.png" alt="">
+      </div>
+
+    </div>
+  </div>
+  <!-- end container -->
+</section>
+<!-- end hero -->
+
+<!-- start footer -->
+<footer class="footer bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <a href="layout-1.html">
+          <img src="images/logo-light.png" alt="" height="22" />
+        </a>
+        <h6 class="mt-4 pt-2 text-white">Locate Us</h6>
+        <p class="mt-3 text-muted fs-15">3964 White River Way behind <br> Salt Lake City, UT <br> 84106
+        </p>
+        <h6 class="text-primary fw-medium fs-15 mt-4">801-468-2313</h6>
+        <h6 class="text-primary fw-medium fs-15 mt-2">591-578-1234</h6>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <h6 class="mb-3 mt-sm-0 mt-5 text-white">Others Links</h6>
+        <ul class="list-unstyled footer-list">
+          <li class="py-2"><a class="fs-15" href="#"><span class="icon fs-12 me-2">∎</span> About Us</a></li>
+          <li class="py-2"><a class="fs-15" href="#"><span class="icon fs-12 me-2">∎</span> Contact Us</a></li>
+          <li class="py-2"><a class="fs-15" href="#"><span class="icon fs-12 me-2">∎</span> Pricing</a></li>
+          <li class="py-2"><a class="fs-15" href="#"><span class="icon fs-12 me-2">∎</span> Privacy Policy</a></li>
+          <li class="py-2"><a class="fs-15" href="#"><span class="icon fs-12 me-2">∎</span> Terms & Condition</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 offset-lg-1">
+        <div class="card rounded border-0 mt-sm-0 mt-4">
+          <div class="map rounded">
+            <a href="#" class="btn btn-light text-dark position-absolute top-50 start-50 translate-middle map-btn">View Map</a>
+            <div class="bg-overlay rounded position-absolute top-0 right-0 bottom-0 left-0"></div>
+            <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6030.418742494061!2d-111.34563870463673!3d26.01036670629853!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1471908546569" width="100%" height="230" style="border: 0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</footer>
+<!-- end footer -->
+
+<!-- start footer alter -->
+<div class="footer-alt bg-dark">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <script>
+          document.write(new Date().getFullYear())
+        </script> &copy; Stabig by <a href="" class="text-muted">Themesdesign</a>
+      </div>
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</div>
+<!-- end footer alter -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get In Touch</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form method="post" name="myForm" onsubmit="return validateForm()">
+          <span id="error-msg"></span>
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label class="fw-medium form-label" for="name">Name</label>
+                  <input type="text" class="form-control" placeholder="Your name" id="name" />
+                </div>
+                <!-- end col -->
+                <div class="col-md-6 mb-3">
+                  <label class="fw-medium form-label" for="email">Email</label>
+                  <input type="email" class="form-control" placeholder="Your email" id="email" />
+                </div>
+                <!-- end col -->
+                <div class="col-md-6 mb-3">
+                  <label class="fw-medium form-label" for="subject">Subject</label>
+                  <input type="text" class="form-control" placeholder="your subject" id="subject" />
+                </div>
+                <!-- end col -->
+                <div class="col-md-6 mb-3">
+                  <label class="fw-medium form-label" for="number">Contact</label>
+                  <input type="text" class="form-control" placeholder="+00 1234 5678 90" id="number" />
+                </div>
+                <!-- end col -->
+                <div class="col-12 mb-3">
+                  <label class="fw-medium form-label" for="comments">Message</label>
+                  <textarea class="form-control" id="comments" placeholder="Enter your message..." rows="5"></textarea>
+                </div>
+                <!-- end col -->
+                <div class="col-12">
+                  <input type="submit" id="submit" name="send" class="btn btn-primary mt-2" value="Send Information" />
+                </div>
+                <!-- end col -->
+              </div>
+            </div>
+          </div>
+          <!-- end row -->
+        </form>
+        <!-- end form -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal -->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- feather icon -->
+<script src="js/feather.js"></script>
+
+<!-- client-slider -->
+<script src="js/tiny-slider.js"></script>
+<script src="js/tiny.init.js"></script>
+
+<!-- moving letter -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="js/text-animation.init.js"></script>
+
+<script src="js/app.js"></script>
 </body>
 
 </html>
