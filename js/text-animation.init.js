@@ -22,7 +22,7 @@ anime.timeline({loop: true})
     targets: '.ml11 .letter',
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 600,
+    duration: 2600,
     offset: '-=775',
     delay: (el, i) => 34 * (i+1)
   }).add({
