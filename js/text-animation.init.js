@@ -28,7 +28,7 @@ anime.timeline({loop: true})
   }).add({
     targets: '.ml11',
     opacity: 0,
-    duration: 1000,
+    duration: 3000,
     easing: "easeOutExpo",
     delay: 1000
   });
